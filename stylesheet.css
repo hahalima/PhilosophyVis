@@ -1,0 +1,139 @@
+html {
+ font-family: Arial, Helvetica, sans-serif;
+ color:#333;
+}
+body {
+ background:#fff; margin:0;
+}
+#container {
+ width:100%;
+ /*margin:10px 10px 10px 10px;*/
+ background:#fff;
+ position:relative;
+
+}
+#header {
+ width:100%;
+ height:60px;
+ /*border-bottom:1px solid #c7c7c7;*/
+ background:#fff;
+ }
+
+#logo {
+ float:left;
+ width:500px;
+ height:40px;
+ margin-left:100px;
+ margin-top:20px;
+ background:#fff
+}
+
+#top_info {
+ float:right;
+ width:100px;
+ height:40px;
+ background:#666;
+ /*border:1px solid #c7c7c7;*/
+ margin-top:10px;
+ margin-right:200px;
+}
+
+#banner {
+ background:#666;
+ height:120px;
+ padding:20px;
+ clear: both;
+}
+#left_col {
+ float:left;
+ width:20%;
+ height:730px;
+ color:#000;
+ background:#fff;
+ position:absolute;
+}
+#left_col_top {
+ float:left;
+ width:100%;
+ height:365px;
+ color:#000;
+ background:#ccF;
+ overflow: scroll;
+}
+#left_col_bottom {
+ float:left;
+ width:100%;
+ height:365px;
+ color:#000;
+ background:#cff;
+ overflow: scroll;
+}
+#right_col {
+ float:right;
+ width:80%;
+ height:730px;
+ color:red;
+ background:#ccc;
+ /*position:relative;*/
+
+}
+#footer {
+ padding:10px;
+ clear:both;
+ float:right;
+ width:100%;
+
+}
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+.legend {
+  font-size: 12px;
+}
+rect {
+  stroke-width: 2;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
